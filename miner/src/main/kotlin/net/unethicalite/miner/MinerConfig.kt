@@ -86,7 +86,7 @@ interface MinerConfig : Config {
     )
     @JvmDefault
     fun rockType(): Rock {
-        return Rock.IRON
+        return Rock.TIN
     }
     @ConfigItem(
         keyName = "radius",
